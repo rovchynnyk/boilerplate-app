@@ -1,6 +1,6 @@
 module.exports = {
-    setupTestFrameworkScriptFile: '<rootDir>/testSetup.js',
-    moduleNameMapper: {
-        '\\.(css|less)$': 'identity-obj-proxy'
-    }
+	setupFilesAfterEnv: ["<rootDir>/testSetup.js"],
+	moduleNameMapper: {
+		"\\.(css|less)$": "identity-obj-proxy"
+	}
 };
