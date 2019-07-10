@@ -1,3 +1,5 @@
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 import React from "react";
 import "./styles.css";
 import { hot } from "react-hot-loader";
